@@ -43,14 +43,14 @@ img {
 /*My CSS*/
 
 .brandname {
-  color: rgba(255, 249, 66);
+  color: rgb(255, 193, 7);
 }
 
 .getstartedbtn {
-  background-color: rgba(255, 249, 66);
-  color: rgba(80, 80, 79);
+  background-color: rgb(255, 193, 7);
+  color: rgb(52, 58, 64);
   font-weight: bold;
-  border-color: rgba(255, 249, 66);
+  border-color: rgb(255, 193, 7);
 }
 
 .loginbtn {
@@ -60,12 +60,22 @@ img {
 }
 
 .marketing {
-  color: lightgrey;
+  color: rgb(248, 249, 250);
 }
 
 .submitbutton {
-  background-color: rgba(80, 80, 79);
-  color: rgba(255, 249, 66);
+  background-color: rgb(52, 58, 64);
+  color: rgb(255, 193, 7);
   font-weight: bold;
-  border-color: rgba(80, 80, 79);
+  border-color: rgb(52, 58, 64);
 }
+
+.navbar-brand {
+  color: rgb(255, 193, 7) !important;
+}
+
+/*
+footer {
+  position: relative;
+}
+*/
