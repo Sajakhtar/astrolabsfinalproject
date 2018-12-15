@@ -53,6 +53,13 @@ img {
   border-color: rgb(255, 193, 7);
 }
 
+.getstartedbtn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 193, 7);
+  font-weight: bold;
+  border-color: rgb(255, 193, 7);
+}
+
 .loginbtn {
   background-color: rgba(0, 0, 0, 0);
   color: lightgrey;
@@ -70,12 +77,38 @@ img {
   border-color: rgb(52, 58, 64);
 }
 
+.submitbutton:hover {
+  background-color: rgb(255, 193, 7);
+  color: rgb(52, 58, 64);
+  font-weight: bold;
+  border-color: rgb(255, 193, 7);
+}
+
 .navbar-brand {
   color: rgb(255, 193, 7) !important;
 }
 
-/*
-footer {
-  position: relative;
+.login {
+  height: 100vh;
 }
-*/
+
+.register {
+  height: 100vh;
+}
+
+.dashboard {
+  height: 100vh;
+}
+
+/*Media query for marketing text*/
+
+@media only screen and (max-width: 580px) {
+  .marketing h4 {
+    font-size: 1.2rem;
+  }
+
+  .marketing p {
+    font-size: 0.8rem;
+    margin-bottom: 1.25rem;
+  }
+}

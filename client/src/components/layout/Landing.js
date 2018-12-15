@@ -32,7 +32,6 @@ class Landing extends Component {
                 </Link>
                 <hr />
                 <br />
-                <br />
               </div>
             </div>
             {/* */}
